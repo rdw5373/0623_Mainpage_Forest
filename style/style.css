@@ -1,0 +1,244 @@
+@charset "UTF-8";
+@import url(style_reset.css);
+
+body {
+    background-color: #ebeaef;
+}
+
+/* div#wrap */
+div#wrap {
+    width: 1360px;
+    margin: 10px auto;
+}
+/* div#wrap */
+
+
+/* main#main */
+main#main {
+    margin-bottom: 24px;
+    background-color: #fff;
+}
+
+        /* header#header */
+#main>header#header {
+    height: 90px;
+    text-align: center; /*헤더로고 가로가운데 정렬*/
+    line-height: 90px; /*헤더로고 세로가운데 정렬*/
+    /*이미지가 하나이거나 텍스트가 한줄이면
+       h와 lh를 동일하게 잡으면 가운데 정렬*/
+
+}
+        /* header#header */
+
+
+        /* nav#gnb */
+/*
+#main>nav#gnb {
+    border: 1px solid #f80;
+}
+*/
+#gnb li.mainLi { /* 1:1로 알아서 나뉨 */
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#gnb li.mainLi {
+    border: 1px solid #aaa;
+}
+#gnb li.mainLi:not(:last-child) {
+    border-right: none;
+}
+#gnb a {
+    width: 100%; /*크기계산 필요없이 가득채움*/
+    height: 46px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 46px;
+    /*border: 1px solid #000;*/
+    display: inline-block;
+}
+
+#gnb a.selected {    /* 선택된곳 */
+    color: #fff;
+    background-color: #16a840;
+}
+        /* nav#gnb */
+
+
+        /* div#slide */
+#main div#slide {
+    padding: 10px 0 34px;
+    border: 1px solid #f80;
+    margin-top: 16px;
+}
+
+#main div.arrowArea {
+    line-height: 265px; /*이미지 세로가운데 정렬*/
+    padding: 10px;
+    /*border: 1px solid #08f;*/
+    margin: 0 10px;
+}
+
+#main div#shuttleFrame {
+    /*border: 1px solid #08f;*/
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+
+    justify-content: space-between;
+    /*맨끝좌우 붙고 알아서 공간 나누어짐*/
+}
+
+#main #shuttleFrame div.slideItem {
+    border: 1px solid #aaa;
+}
+
+#main #shuttleFrame div.forestInfo {
+    padding: 16px;
+}
+
+#main .forestInfo h3 {
+    color: #22834d;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#main .forestInfo address {
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+
+#main .forestInfo hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin-bottom: 6px;
+}
+
+#main .forestInfo ul {
+    /*border: 1px solid #000;*/
+
+    /*list-style-type: disc;*/ /*블릿기호표시*/
+    list-style-position: inside; /*기본아웃에서 인으로변경*/
+}
+#main .forestInfo li {
+    font-size: 13px;
+    font-weight: bold;
+    /*border: 1px solid #f80;*/
+}
+        /* div#slide */
+
+/* main#main */
+
+
+/* div#contents */
+div#contents {
+    border: 1px solid #000;
+}
+
+
+div#bbs, div#signBoard {
+    background-color: #fff;
+}
+
+#contents #bbs {
+    border: 1px solid #08f;
+    margin-right: 20px;
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#contents #signBoard {
+    width: 450px;
+    padding: 34px;
+    /*border: 1px solid #08f;*/
+}
+#contents #signBoard #signBoardHeader {
+    /*border: 1px solid #000;*/
+    margin-bottom: 20px;
+}
+#contents #signBoard h2 {
+    color: #000;
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+#contents #signBoard div#controlArea {
+    width: 100px;
+    /*border: 1px solid #000;*/
+}
+#contents #signBoard div#controlArea span {
+    text-align: center;
+    /*border: 1px solid #f80;*/
+
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#contents div#boardImgArea {
+    /*border: 1px solid #000;*/
+}
+/* div#contents */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
