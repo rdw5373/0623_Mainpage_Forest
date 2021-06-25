@@ -148,7 +148,9 @@ div#bbs, div#signBoard {
     background-color: #fff;
 }
 
+    /* div#bbs */
 #contents #bbs {
+    padding: 20px 30px;
     border: 1px solid #08f;
     margin-right: 20px;
 
@@ -158,6 +160,88 @@ div#bbs, div#signBoard {
     -o-flex: 1px;
     flex: 1px;
 }
+
+#contents div#tabBtnArea {
+    border-bottom: 2px solid #aaa;
+
+    justify-content: space-between;
+}
+
+div#bbsMore {
+    line-height: 70px;
+    /*border: 1px solid #000;*/
+    margin-right: 10px;
+}
+
+#contents #bbs button {
+    color: #555;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 0;
+    border: none;
+    background-color: #fff;
+}
+
+#contents #tabBtnArea button:last-child {
+    margin-left: 6px;
+}
+
+#contents #bbs .checkOn {
+    color: #f00;
+    font-size: 24px;
+    border-bottom: 4px solid #f00;
+    margin-right: 8px;
+}
+#contents #bbs .checkOn>i {
+    color: #f00;
+}
+
+#contents #bbs button i,
+#contents #bbs button img {
+    margin-right: 10px;
+}
+
+#contents #bbs button img {
+    transform: translateY(-3px);
+}
+
+/* div#tabContents */
+#contents #bbs table {
+    width: 400px;
+    border: 1px solid #000;
+}
+#contents #bbs table td.date div {
+    width: 84px;
+    height: 84px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+
+    border-radius: 42px;
+
+    background-color: #eee;
+}
+#contents #bbs table td.date div span:first-child {
+    color: #f00;
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+#contents #bbs table td.date div span:last-child {
+    font-size: 14px;
+    font-weight: bold;
+}
+#contents #bbs table tr:last-child td {
+    color: #555;
+    font-size: 14px;
+    line-height: 24px;
+}
+#contents #bbs table h3 {
+    color: #333;
+    margin: 6px 0;
+}
+
+
+    /* div#bbs */
 
 #contents #signBoard {
     width: 450px;
