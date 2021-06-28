@@ -1,9 +1,16 @@
 @charset "UTF-8";
 @import url(style_reset.css);
 
+
+/* 공통영역 */
 body {
     background-color: #ebeaef;
 }
+
+main#main, div#bbs, div#signBoard {
+    border-radius: 10px;  /* 둥근 모서리 */
+}
+/* 공통영역 */
 
 /* div#wrap */
 div#wrap {
@@ -38,6 +45,7 @@ main#main {
 }
 */
 #gnb li.mainLi { /* 1:1로 알아서 나뉨 */
+
     -webkit-flex: 1px;
     -moz-flex: 1px;
     -ms-flex: 1px;
@@ -72,7 +80,7 @@ main#main {
         /* div#slide */
 #main div#slide {
     padding: 10px 0 34px;
-    border: 1px solid #f80;
+    /*border: 1px solid #f80;*/
     margin-top: 16px;
 }
 
@@ -139,9 +147,9 @@ main#main {
 
 
 /* div#contents */
-div#contents {
+/*div#contents {
     border: 1px solid #000;
-}
+}*/
 
 
 div#bbs, div#signBoard {
@@ -150,8 +158,8 @@ div#bbs, div#signBoard {
 
     /* div#bbs */
 #contents #bbs {
-    padding: 20px 30px;
-    border: 1px solid #08f;
+    padding: 10px 20px 0;
+    /*border: 1px solid #08f;*/
     margin-right: 20px;
 
     -webkit-flex: 1px;
@@ -206,10 +214,22 @@ div#bbsMore {
 }
 
 /* div#tabContents */
-#contents #bbs table {
-    width: 400px;
-    border: 1px solid #000;
+
+#contents div#tabContents {
+    margin: 20px 0 0;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+#contents #bbs table {
+    width: 416px;
+    /*border: 1px solid #000;*/
+    margin-bottom: 20px;
+}
+#contents #bbs table td.date {
+    padding-right: 10px;
+}
+
 #contents #bbs table td.date div {
     width: 84px;
     height: 84px;
@@ -276,53 +296,9 @@ div#bbsMore {
     flex: 1px;
 }
 
-#contents div#boardImgArea {
-    /*border: 1px solid #000;*/
-}
+/*#contents div#boardImgArea {
+    border: 1px solid #000;
+}*/
 /* div#contents */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
